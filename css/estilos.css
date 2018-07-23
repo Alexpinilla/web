@@ -19,6 +19,12 @@
   margin:auto;
 }
 
+.principal {
+  padding-left:70px;
+  padding-right:70px;
+}
+
+
 
 body {
     background-color:black;
@@ -31,7 +37,7 @@ body {
   padding-left:0;
 }
 .container {
-  padding:0;
+  padding:20px;
 }
 
 
@@ -123,7 +129,7 @@ h3 {
 p{
 	font-size: 15px;
 	font-family: Roboto;
-    color: #d3fded;
+  color: #d3fded;
 }
 
 
@@ -157,4 +163,9 @@ hr {
 	font-size: 25px;
   padding-left:10px;
 	color: #74fdb5;
+}
+
+.degradado {
+  padding-left: 70px;
+  padding-right: 70px;
 }
