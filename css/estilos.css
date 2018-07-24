@@ -19,9 +19,10 @@
   margin:auto;
 }
 
+
 .principal {
-  padding-left:70px;
-  padding-right:70px;
+  padding-left:15vh;
+  padding-right:15vh;
 }
 
 
@@ -37,7 +38,7 @@ body {
   padding-left:0;
 }
 .container {
-  padding:20px;
+  padding:0px;
 }
 
 
@@ -150,10 +151,14 @@ hr {
 
 
 
-
+.columna {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  align-content: center;
+}
 
 .foot {
-  padding-left:10px;
 	font-size: 15px;
 	font-family: LATO;
     text-align: justify;
@@ -161,11 +166,11 @@ hr {
 
 .titulo {
 	font-size: 25px;
-  padding-left:10px;
 	color: #74fdb5;
 }
-
-.degradado {
-  padding-left: 70px;
-  padding-right: 70px;
+footer {
+  height:20vh;
+}
+.nofooter{
+min-height: 80vh;
 }
