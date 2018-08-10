@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic,cyrillic-ext,greek,latin-ext,vietnamese');
+
+body {
+    font-family: 'Comfortaa', monospace;
+    background-color:black;
+    background-image: url(images/sheila.jpg);
+    background-attachment: fixed;
+    color: #d3fded;
+    font-size: 15px;
+}
+
+.header {
+    display: flex;
+    background-color: transparent;
+    max-width: 956px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+ul li {
+    font-family: 'Lato';
+    color: #74fdb5;
+    font-size: 14px;
+    text-align: right;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a:active{
+    color:#ffffff;
+    font-weight: bold;
+  }
+a {
+    text-decoration: none;
+    color: #74fdb5;
+}
+
+a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.menudenavegacion {
+    color: white;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.menudenavegacion li {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.imagen1 {
+    width: 100%;
+}
+
+.contenedor1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*    background-color: rgba(0, 0, 0, 0.6); */
+    border-radius: 18px;
+    padding: 20px 20px 10px 20px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 956px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: #93ffdb;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 7.5px;
+}
+
+.imagenalex {
+    display: flex;
+    max-height: 44vh;
+    max-width: 44vh;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.texto {
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+}
+
+p {
+    line-height: 23px;
+}
+
+.imagen-1 {
+    width: 100%;
+}
+
+.imagen2 {
+    display: none;
+    width: 100%
+}
+
+@media (max-width: 600px) {
+    .imagen2 {
+        display: flex;
+    }
+    .imagen-1 {
+        display: none;
+    }
+    .imagenalex {
+        max-height: 150px;
+        max-height: 150px;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.copy {
+    display: flex;
+    margin: 0 auto;
+    color: grey;
+    font-family: Comfortaa;
+    margin-top: 10px;
+}
+
+.carrusel {
+    width: 100%;
+    position: relative;
+    display: flex;
+    perspective: 800px;
+}
+
+.carrusel1 {
+    position: absolute;
+    transform: translateX(-100%) rotateY(360deg);
+    opacity: 0;
+    transition: all 1s;
+}
+
+#diseño {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.carrusel1:target {
+    transform: translateX(0) rotateY(0deg);
+    opacity: 1;
+}
+
+.icon-left-open {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 90%;
+    text-decoration: none;
+    color: white;
+}
+
+.icon-right-open {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 90%;
+    text-decoration: none;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.foot {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*    background-color: rgba(0, 0, 0, 0.6);*/
+    border-radius: 18px;
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 956px;
+    justify-content: space-between;
+}
+
+@media (max-width: 1366px) {
+    .carrusel {
+        margin-bottom: 300px;
+    }
+}
+
+@media (max-width: 1166px) {
+    .carrusel {
+        margin-bottom: 260px;
+    }
+}
+
+@media (max-width: 956px) {
+    .carrusel {
+        margin-bottom: 220px;
+    }
+}
+
+@media (max-width: 700px) {
+    .carrusel {
+        margin-bottom: 170px;
+    }
+}
+
+@media (max-width: 500px) {
+    .carrusel {
+        margin-bottom: 100px;
+    }
+}
