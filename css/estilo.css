@@ -115,6 +115,7 @@ p {
 
 .imagen-1 {
     width: 100%;
+    height: 100%;
 }
 
 .imagen2 {
@@ -219,6 +220,10 @@ section {
     justify-content: space-between;
 }
 
+.textofooter {
+    
+}
+
 @media (max-width: 1366px) {
     .carrusel {
         margin-bottom: 300px;
@@ -246,5 +251,17 @@ section {
 @media (max-width: 500px) {
     .carrusel {
         margin-bottom: 100px;
+    }
+    .menudenavegacion li {
+        font-size: 12px;
+    }
+    .parrafo {
+        font-size: 13px;
+    }
+    .titulo {
+        font-size: 15px;
+    }
+    .textofooter{
+        font-size: 11px;
     }
 }
