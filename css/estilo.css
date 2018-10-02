@@ -5,7 +5,7 @@
 body {
     font-family: 'Comfortaa', monospace;
     background-color:black;
-    background-image: url(images/sheila.jpg);
+    background-image: url(../images/fondo.jpg);
     background-attachment: fixed;
     color: #d3fded;
     font-size: 15px;
@@ -227,7 +227,6 @@ section {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    /*    background-color: rgba(0, 0, 0, 0.6);*/
     border-radius: 18px;
     padding: 20px;
     display: flex;
