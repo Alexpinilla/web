@@ -239,7 +239,12 @@ section {
 .textofooter {
     
 }
+@media (max-width: 1766px) {
+    .carrusel{
+        margin-bottom: 350px;
+    }
 
+}
 @media (max-width: 1366px) {
     .carrusel {
         margin-bottom: 300px;
