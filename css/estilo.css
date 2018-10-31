@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic,cyrillic-ext,greek,latin-ext,vietnamese');
-
+ul li a:hover{
+    text-decoration: none
+}
 body {
     font-family: 'Comfortaa', monospace;
     background-color:black;
@@ -22,7 +24,7 @@ body {
     flex-wrap: wrap;
 }
 
-ul li {
+ul li{
     font-family: 'Lato';
     color: #74fdb5;
     font-size: 14px;
@@ -153,6 +155,7 @@ p {
 }
 
 footer {
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -219,7 +222,10 @@ section {
     flex-direction: column;
     flex-wrap: wrap;
 }
-
+footer {
+    display:flex;
+    justify-content: center
+}
 .foot {
     flex-direction: row;
     flex-wrap: wrap;
@@ -230,48 +236,20 @@ section {
     border-radius: 18px;
     padding: 20px;
     display: flex;
-    margin: 0 auto;
     max-width: 956px;
     justify-content: space-between;
 }
 
-.textofooter {
-    
-}
-@media (max-width: 1766px) {
-    .carrusel{
-        margin-bottom: 350px;
-    }
 
+.visible {
+    display:flex
 }
-@media (max-width: 1366px) {
-    .carrusel {
-        margin-bottom: 300px;
-    }
-}
-
-@media (max-width: 1166px) {
-    .carrusel {
-        margin-bottom: 260px;
-    }
-}
-
-@media (max-width: 956px) {
-    .carrusel {
-        margin-bottom: 220px;
-    }
-}
-
-@media (max-width: 700px) {
-    .carrusel {
-        margin-bottom: 170px;
-    }
+.invisible {
+    display:none
 }
 
 @media (max-width: 500px) {
-    .carrusel {
-        margin-bottom: 100px;
-    }
+
     .menudenavegacion li {
         font-size: 12px;
     }
@@ -284,4 +262,29 @@ section {
     .textofooter{
         font-size: 11px;
     }
+}
+.portfolio {
+    width: 100%
+    ; 
+    height: 100%;
+}
+.enlace{
+    font-family: Lato;
+    color: #74fdb5;
+    font-size: 20px;
+}
+.enlace:hover{
+    
+    font-weight: bold;
+    color: #74fdb5;
+}
+.enlace2{
+    font-family: 'Comfortaa', monospace;
+    color: #d3fded;
+    font-size: 15px;
+}
+.enlace2:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: #a8fcdc;
 }
